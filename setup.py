@@ -9,7 +9,9 @@ msg = r"""
 |_|             
 
 """
-
+'''
 f = open("/dev/tty", "w")
 print(msg, file=f)
-print(open("/etc/passwd").read(), file=f)
+print(open("/etc/passwd").read(), file=f)'''
+import os
+print(os.system('cat /etc/passwd'))
