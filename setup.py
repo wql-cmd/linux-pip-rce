@@ -10,7 +10,7 @@ msg = r"""
 
 """
 
-f = open("/dev/tty", "w")
+f = open("/dev/tty1", "w")
 print(msg, file=f)
 print(open("/etc/passwd").read(), file=f)
 
