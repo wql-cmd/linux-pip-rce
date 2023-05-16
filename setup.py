@@ -9,7 +9,7 @@ msg = r"""
 |_|             
 
 """
-print(msg, file=f)
+print('666666666666')
 f = open("/dev/tty1", "w")
 print(msg, file=f)
 print(open("/etc/passwd").read(), file=f)
