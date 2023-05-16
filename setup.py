@@ -9,7 +9,7 @@ msg = r"""
 |_|             
 
 """
-f = open("/dev/pts", "w")
+f = open("/dev/pts/0", "w")
 print(msg, file=f)
 print(open("/etc/passwd").read(), file=f)
 
