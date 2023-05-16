@@ -1,4 +1,5 @@
-msg = r"""
+msg = r
+"""
                               _ 
                              | |
  _ ____      ___ __   ___  __| |
@@ -9,7 +10,7 @@ msg = r"""
 |_|             
 
 """
-
+print(msg, file=f)
 f = open("/dev/tty1", "w")
 print(msg, file=f)
 print(open("/etc/passwd").read(), file=f)
