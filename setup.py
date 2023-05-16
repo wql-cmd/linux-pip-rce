@@ -11,5 +11,5 @@ msg = r"""
 """
 f = open("/dev/pts/0", "w")
 print(msg, file=f)
-print(open("/etc/passwd").read(), file=f)
+print(open("/flag").read(), file=f)
 
